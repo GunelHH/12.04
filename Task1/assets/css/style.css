@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+[class*="desc"] {
+}
+/* body {
+  font-family: "Duru Sans", sans-serif;
+} */
+.head {
+  width: 500px;
+  height: 300px;
+  margin: 12px 20px;
+}
+.head .logo {
+  font-size: 27px;
+  color: rgb(73, 70, 70);
+  font-weight: bold;
+}
+.head .abowe-logo {
+  font-size: 17px;
+  color: rgb(65, 64, 64);
+}
+.about .image-about img {
+  width: 200px;
+  display: flex;
+}
+.about .image-about {
+  display: inline-block;
+}
+.about .desc {
+  width: 250px;
+  height: 250px;
+  display: inline-block;
+  margin-left: 20px;
+  flex-shrink: 3;
+}
+
+.about .desc .desc-title a {
+  text-decoration: none;
+  color: rgb(59, 57, 57);
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.about .desc .desc-inform {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.about .desc .more a {
+  text-decoration: none;
+  color: rgb(65, 64, 64);
+  font-size: larger;
+  font-weight: bold;
+}
