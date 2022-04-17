@@ -8,13 +8,16 @@
 /* body {
   font-family: "Duru Sans", sans-serif;
 } */
+.container {
+  margin-left: 40px;
+}
 .head {
   width: 500px;
-  height: 300px;
+  height: 250px;
   margin: 12px 20px;
+  font-size: 18px;
 }
 .head .logo {
-  font-size: 27px;
   color: rgb(73, 70, 70);
   font-weight: bold;
 }
@@ -24,7 +27,6 @@
 }
 .about .image-about img {
   width: 200px;
-  display: flex;
 }
 .about .image-about {
   display: inline-block;
@@ -66,4 +68,17 @@
 
 .col-6 {
   width: calc(100% * 6 / 12);
+}
+.col-12 {
+  width: calc(100%);
+}
+@media (max-width: 600px) {
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+@media (max-width: 490px) {
+  .image-about img {
+    display: none;
+  }
 }
